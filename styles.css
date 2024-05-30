@@ -5,6 +5,9 @@ html {
 p {
   color: #717a81;
 }
+header {
+  transition: background-color 0.4s ease-in-out;
+}
 
 .btn {
   text-transform: uppercase;
@@ -19,6 +22,7 @@ p {
 /*navbar*/
 .nav-link {
   text-transform: uppercase;
+  transition: background-color 0.4 s ease-in-out;
 }
 
 #sm-icons {
@@ -26,6 +30,9 @@ p {
 }
 #sm-icons .nav-link {
   padding-right: 1rem;
+}
+.nav-scrolled {
+  background-color: #fff;
 }
 
 /*home*/
