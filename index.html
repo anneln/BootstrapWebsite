@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Site</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>My website in bootstrap from scratch</title>
+  </head>
+  <body>
+    <header>
+      <section id="navbar">
+        <nav
+          class="navbar navbar-expand-lg navbar-dark shadow-5-strong fixed-top"
+        >
+          <div class="container-fluid">
+            <a
+              class="navbar-brand ml-5 d-sm-ml-2"
+              href="https://ahbricet.com/"
+              target="_blank"
+              ><img
+                src="https://ahbricet.com/wp-content/uploads/2018/11/lOGO-AHB-50X50.png"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarCollapse"
+              aria-controls="navbarCollapse"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav mx-auto">
+                <li class="navbar-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="#"
+                    id="ah"
+                    >Anne-Hélène</a
+                  >
+                </li>
+                <li class="navbar-item">
+                  <a class="nav-link" href="#apropos">A propos</a>
+                </li>
+                <li class="navbar-item">
+                  <a class="nav-link" href="#realisations">Réalisations</a>
+                </li>
+                <li class="navbar-item">
+                  <a class="nav-link" href="#temoignages">Témoignages</a>
+                </li>
+                <li class="navbar-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav mr-5 offset-lg-md-1" id="sm-icons">
+                <li class="navbar-item">
+                  <a
+                    class="nav-link"
+                    href="https://www.linkedin.com/in/annehelenebricet/"
+                    target="_blank"
+                    ><i class="bi bi-linkedin"></i
+                  ></a>
+                </li>
+                <li class="navbar-item">
+                  <a
+                    class="nav-link"
+                    href="https://twitter.com/AHBricet"
+                    target="_blank"
+                    ><i class="bi bi-twitter-x"></i>
+                  </a>
+                </li>
+                <li class="navbar-item">
+                  <a
+                    class="nav-link"
+                    href="https://www.instagram.com/ahbricet/"
+                    target="_blank"
+                    ><i class="bi bi-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+    </header>
+    <main>
+      <section id="ah">
+        <div class="container-fluid home-container">
+          <div class="row home-row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6 home-col">
+              <h1 class="home-title">My Boostrap website</h1>
+              <h3>
+                Création de site vitrine et e-commerce, référencement naturel
+                ou<br />
+                payant, animation de réseaux sociaux
+              </h3>
+              <button
+                type="button"
+                class="btn btn-success mt-5 btn-realisations"
+                href="#realisations"
+              >
+                Mes réalisations
+              </button>
+            </div>
+            <div class="col-lg-3"></div>
+          </div>
+        </div>
+      </section>
+      <section class="my-5" id="approche">
+        <div class="container">
+          <div class="row">
+            <div class="col mr-5 pt-5">
+              <h2 class="display-4">Mon approche</h2>
+              <p class="py-3">
+                Spécialisée dans le
+                <strong>lancement de produits ou services</strong> et
+                <strong>l’expérience utilisateur</strong>depuis de nombreuses
+                années, je vous conseille sur l’orientation stratégique de votre
+                site et vous indique les
+                <strong>meilleures pratiques</strong> pour la réalisation
+                d’interface utilisateur. Experte <strong>WordPress</strong>, je
+                créée pour vous votre site internet ou vous aide à le faire
+                vous-même. Mes compétences de <strong>développeur</strong>me
+                permettent de <strong>personnaliser votre site</strong> grâce à
+                l’ajout de code(html, css, javascript) pour que votre site ne
+                ressemble à aucun autre.
+              </p>
+              <button class="btn btn-success">Mes références</button>
+            </div>
+            <div class="col">
+              <img
+                src="../img/ResponsiveDesign-1.webp"
+                alt="création de site responsive"
+                class="w-100"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <img
+                src="../img/Methodeclient.webp"
+                alt="approche client Anne-Hélène bricet"
+                class="w-100"
+              />
+            </div>
+            <div class="col ml-5 pt-5 mt-2">
+              <h2 class="display-4">Ma méthode</h2>
+              <p class="py-3">
+                Découverte de vos besoins Etude rapide de la concurrence
+                Reformulation et proposition d’une maquette Je vous conseille
+                ensuite tout au long de notre collaboration
+                <br />
+                Inspirée de la méthode AGILE scrum, je solicite en permanence le
+                client pour valider ou modifier les avancées du site en
+                construction.
+              </p>
+              <button class="btn btn-success">Mes réalisations</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="my-5 py-5" id="prestations">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2 class="display-5">Prestations</h2>
+              <h6 class="h6-presta mx-5 py-3">
+                De l’élaboration du cahier des charges à la maintenance de votre
+                site <br />internet, je vous accompagne à chaque étape de votre
+                projet.
+              </h6>
+            </div>
+          </div>
+          <div class="row">
+            <div class="feature col">
+              <div class="feature-icon h2 pb-2">
+                <i class="bi bi-chat-dots"></i>
+              </div>
+              <div class="feature-body">
+                <h5 class="feature-title">Conseils</h5>
+                <p class="feature-text p-3">
+                  Aide à l’élaboration du cahier des charges.<br />
+                  Formation au tableau de bord wordpress ou prestashop.<br />
+                  Aide au choix des thèmes et plugins
+                </p>
+              </div>
+            </div>
+            <div class="feature col">
+              <div class="feature-icon h2 pb-2">
+                <i class="bi bi-pencil"></i>
+              </div>
+              <div class="feature-body">
+                <h5 class="feature-title">Création de site</h5>
+                <p class="feature-text p-3">
+                  Intégration de maquette. <br />
+                  Création de la mise en page à partir d’un thème et
+                  personnalisation grâce au CSS.<br />
+                  Installation et paramétrage des différents plugins
+                </p>
+              </div>
+            </div>
+            <div class="feature col">
+              <div class="feature-icon h2 pb-2">
+                <i class="bi bi-search"></i>
+              </div>
+              <div class="feature-body">
+                <h5 class="feature-title">Référencement</h5>
+                <p class="feature-text p-3">
+                  Formation aux clés d’un bon référencement naturel.<br />
+                  Création ou aide à la mise en place de campagnes de mots clés
+                  Google Ads
+                </p>
+              </div>
+            </div>
+            <div class="feature col">
+              <div class="feature-icon h2 pb-">
+                <i class="bi bi-wrench-adjustable"></i>
+              </div>
+              <h5 class="feature-title">Maintenance</h5>
+              <p class="feature-text p-3">
+                Sauvegarde du site et mises à jour mensuelles des plugins,
+                thèmes et des versions CMS.<br />
+                Intervention en cas de problèmes sur le site internet
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio my-5">
+        <div class="container">
+          <div class="row">
+            <h2>Portfolio</h2>
+            <p>Pro & Perso</p>
+            <div class="col">
+              <div class="card" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">
+                    Card subtitle
+                  </h6>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
+              </div>
+            </div>
+            <div class="col"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
