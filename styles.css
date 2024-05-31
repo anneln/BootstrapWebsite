@@ -22,7 +22,6 @@ header {
 /*navbar*/
 .nav-link {
   text-transform: uppercase;
-  transition: background-color 0.4 s ease-in-out;
 }
 
 #sm-icons {
@@ -33,6 +32,7 @@ header {
 }
 .nav-scrolled {
   background-color: #fff;
+  color: #cacaca;
 }
 
 /*home*/
